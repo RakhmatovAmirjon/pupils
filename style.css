@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shell {
+    width: 865px;
+    
+    margin: 100px 0 0 30px;
+}
+
+.data {
+    width: 618px;
+    height: 73px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+input {
+    width: 245px;
+    height: 45px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #004DFF;
+    border-radius: 6px;
+    background-color: #004DFF;
+    color: white;
+}
+
+.name {
+    width: 245px;
+    height: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name_text {
+    width: 35px;
+    
+    font-weight: 600;
+}
+
+.age {
+    width: 245px;
+    height: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.age_text {
+    width: 60px;
+    
+    font-weight: 600;
+}
+
+.list {
+    width: 865px;
+    
+    margin: 30px 0 0 0;
+}
+
+.list_header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+}
+
+.list_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 865px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 35px 0 0 0;
+    
+}
+
+.column {
+    width: 865px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.edit_delete {
+    width: 130px;
+    height: 25px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.edit {
+    width: 25px;
+    height: 25px;
+    
+    background-image: url("img/edit.svg");
+    background-size: cover;
+}
+
+.delete {
+    width: 25px;
+    height: 25px;
+    
+    background-image: url("img/delete.svg");
+    background-size: cover;
+}
+
+.number {
+    width: 140px;
+    height: 25px;
+    text-align: center;
+    
+}
+
+.student_name {
+    width: 145px;
+    height: 25px;
+    text-align: center;
+    
+}
+.born_year {
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    
+}
+.action {
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    
+}
+
+.number_text {
+    width: 130px;
+    height: 25px;
+    text-align: center;
+}
+.student_name_text {
+    width: 150px;
+    height: 25px;
+    
+    text-align: center;
+}
+.born_year_text {
+    width: 130px;
+    height: 25px;
+    
+    text-align: center;
+}
+
+.modal_window {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    left: 550px;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    border-radius: 12px;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);    
+}
+
+.modal.active {
+    display: block;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px;
+    height: 450px;
+    border-radius: 12px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.name1_text {
+    font-size: 20px;
+}
+
+.age1_text {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.name1 {
+    margin: 12px 0 0 155px;
+}
+
+.age1 {
+    margin: 10px 0 0 155px;
+}
+
+#submitBtn {
+    margin: 20px 0 0 225px;
+}

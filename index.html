@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shell">
+        <form class="form" name="form">
+            <div class="data">
+             <div class="name">
+                <div class="name_text">Имя</div>
+                <input class="inputing" name="name" type="text" placeholder="Bruce Lee"> 
+             </div>
+             <div class="age">
+                <div class="age_text">Возраст</div>
+                <input class="inputing" name="age" type="text" placeholder="24">
+             </div> 
+             <button class="show">Показать</button>  
+            </div> 
+        </form>
+
+        
+
+        <div class="list">
+            <div class="list_header">
+                <div class="number">No</div>
+                <div class="student_name">Имя студента</div>
+                <div class="born_year">Год рождения</div>
+                <div class="action">Действия</div>
+            </div>
+            <div class="list_footer">
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <form class="form2">
+                <span class="close">&times;</span>
+                <h2>Введите имя и возраст</h2>
+                <div class="name1">
+                    <div class="name1_text">Имя</div>
+                    <input name="name1" type="text" placeholder="Амир" id="firstName">
+                </div>
+                <div class="age1">
+                    <div class="age1_text">Возраст</div>
+                    <input name="age1" type="text" placeholder="25" id="Age">
+                </div>
+                <button id="submitBtn">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="db.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
